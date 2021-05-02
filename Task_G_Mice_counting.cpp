@@ -1,6 +1,6 @@
 unsigned int count_total_mice_amount(Cat* cats, size_t n)
 {
-	size_t total_mice_amount;
+	size_t total_mice_amount = 0;
 	
 	for (int i = 0; i < n; i++)
 	{
